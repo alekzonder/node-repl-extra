@@ -1,0 +1,20 @@
+{
+  "name": "repl-extra",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alekzonder/node-repl-extra.git"
+  },
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alekzonder/node-repl-extra/issues"
+  },
+  "homepage": "https://github.com/alekzonder/node-repl-extra",
+  "dependencies": {
+    "cli-spinner": "^0.2.5"
+  }
+}
