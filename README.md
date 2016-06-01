@@ -18,4 +18,4 @@ repl.startExtra({prompt: '# '});
 
 ## if command return Promise, wait for resolve or reject
 
-![promise-example](https://raw.githubusercontent.com/alekzonder/node-repl-extra/master/images/repl-extra-promise.gif)
+![promise-example](https://raw.githubusercontent.com/alekzonder/node-repl-extra/master/images/feature-promise.gif)
