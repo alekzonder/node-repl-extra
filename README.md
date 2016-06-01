@@ -1,12 +1,12 @@
 # node-repl-extra
 
-# install
+## install
 
 ```
 npm i repl-extra
 ```
 
-# usage
+## usage
 
 ```js
 var repl = require('repl-extra');
@@ -14,8 +14,8 @@ var repl = require('repl-extra');
 repl.startExtra({prompt: '# '});
 ```
 
-# features
+## features
 
-## if command return Promise, wait for resolve or reject
+### if command return Promise, wait for resolve or reject
 
 ![promise-example](https://raw.githubusercontent.com/alekzonder/node-repl-extra/master/images/feature-promise.gif)
