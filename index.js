@@ -36,7 +36,7 @@ function myEval(cmd, context, filename, callback) {
 
     } catch (e) {
         if (isRecoverableError(e)) {
-            return callback(new repl.Recoverable(e));
+            return callback(e); //(new repl.Recoverable(e));
         } else {
             callback(e);
         }

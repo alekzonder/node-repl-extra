@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {},
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/alekzonder/node-repl-extra.git"

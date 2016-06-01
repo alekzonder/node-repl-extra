@@ -1,3 +1,3 @@
 var repl = require('./index');
 
-repl.startExtra();
+repl.startExtra({prompt: '# '});
