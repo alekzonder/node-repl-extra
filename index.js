@@ -27,6 +27,9 @@ function myEval(cmd, context, filename, callback) {
                 callback(null, data);
             }).catch((error) => {
                 spinner.stop();
+                console.log('\n==== inspect ====\n');
+                console.log(require('util').inspect(error, {depth: null}));
+                console.log('\n=================\n');
                 callback(error);
             });
 
