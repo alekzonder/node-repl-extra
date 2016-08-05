@@ -12,6 +12,7 @@ function myEval(cmd, context, filename, callback) {
 
         // if (result instanceof context.Promise) { // not work :(
         if (
+            result !== null &&
             typeof result == 'object' &&
             typeof result.then === 'function' &&
             typeof result.catch === 'function'
