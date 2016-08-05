@@ -1,9 +1,11 @@
 {
   "name": "repl-extra",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {},
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
